@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebCore</name>
+    </assembly>
+    <members>
+        <member name="T:WebCore.Controllers.ValuesController">
+            <summary>
+            测试控制器
+            </summary>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Get">
+            <summary>
+            Get获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get获取对象
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.PostAdvertisement(Core.Model.Advertisement)">
+            <summary>
+            Post   上传Advertisement
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.PostLove(Core.Model.Love)">
+            <summary>
+            Post   上传PostLove
+            </summary>
+            <param name="love"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Put  请求
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Delete  请求
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:WebCore.Intrceptors.CoreCacheAOP">
+            <summary>
+            缓存拦截器
+            </summary>
+        </member>
+        <member name="T:WebCore.AOP.CoreLogAOP">
+            <summary>
+            自定义log拦截器
+            </summary>
+        </member>
+        <member name="M:WebCore.AOP.CoreLogAOP.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            实例化IInterceptor唯一方法 
+            </summary>
+            <param name="invocation">被拦截方法的所有信息</param>
+        </member>
+        <member name="M:WebCore.Startup.GetSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            获取appsettings  配置文件信息
+            </summary>
+        </member>
+        <member name="M:WebCore.Startup.SetSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            SetSwagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebCore.Startup.SetAutoFac(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            设置依赖注入框架AutoFac
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

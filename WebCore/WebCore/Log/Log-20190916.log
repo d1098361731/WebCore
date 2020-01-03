@@ -1,0 +1,6 @@
+执行时间：2019-09-16 00:38:23:088;执行方法：AdvertisementService.GetAll()
+执行时间：2019-09-16 00:42:26:583;执行方法：AdvertisementService.GetAll()
+执行时间：2019-09-16 00:42:40:216;执行方法：AdvertisementService.GetAll()
+执行时间：2019-09-16 00:42:47:132;执行方法：AdvertisementService.Query(id)
+执行时间：2019-09-16 00:42:52:328;执行方法：AdvertisementService.Query(id)
+执行时间：2019-09-16 00:43:25:181;执行方法：AdvertisementService.Add(model)

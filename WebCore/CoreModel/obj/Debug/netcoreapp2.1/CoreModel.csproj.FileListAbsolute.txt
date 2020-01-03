@@ -1,0 +1,9 @@
+F:\dff\C#\core\WebCore\CoreModel\bin\Debug\netcoreapp2.1\CoreModel.deps.json
+F:\dff\C#\core\WebCore\CoreModel\bin\Debug\netcoreapp2.1\CoreModel.dll
+F:\dff\C#\core\WebCore\CoreModel\bin\Debug\netcoreapp2.1\CoreModel.pdb
+F:\dff\C#\core\WebCore\CoreModel\bin\Debug\netcoreapp2.1\CoreModel.xml
+F:\dff\C#\core\WebCore\CoreModel\obj\Debug\netcoreapp2.1\CoreModel.csproj.CoreCompileInputs.cache
+F:\dff\C#\core\WebCore\CoreModel\obj\Debug\netcoreapp2.1\CoreModel.AssemblyInfoInputs.cache
+F:\dff\C#\core\WebCore\CoreModel\obj\Debug\netcoreapp2.1\CoreModel.AssemblyInfo.cs
+F:\dff\C#\core\WebCore\CoreModel\obj\Debug\netcoreapp2.1\CoreModel.dll
+F:\dff\C#\core\WebCore\CoreModel\obj\Debug\netcoreapp2.1\CoreModel.pdb

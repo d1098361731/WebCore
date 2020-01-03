@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreServices</name>
+    </assembly>
+    <members>
+        <member name="P:WebServices.BaseService.Mapper">
+            <summary>
+            数据映射
+            </summary>
+        </member>
+        <member name="T:CoreServices.Advertisements.Dtos.AdvertisementInput">
+            <summary>
+            广告
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementInput.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementInput.ImgUrl">
+            <summary>
+            广告图片
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementInput.Title">
+            <summary>
+            广告标题
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementInput.Url">
+            <summary>
+            广告链接
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementInput.Createdate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:CoreServices.Advertisements.Dtos.AdvertisementOutPut">
+            <summary>
+            输出广告
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementOutPut.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementOutPut.ImgUrl">
+            <summary>
+            广告图片
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementOutPut.Title">
+            <summary>
+            广告标题
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementOutPut.Url">
+            <summary>
+            广告链接
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementOutPut.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CoreServices.Advertisements.Dtos.AdvertisementOutPut.Createdate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:CoreServices.Users.Dtos.MenuInput">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.MenuInput.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.MenuInput.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:CoreServices.Users.Dtos.LoginInput">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.LoginInput.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.LoginInput.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:CoreServices.Users.Dtos.UserOutPut">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.UserOutPut.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.UserOutPut.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.UserOutPut.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.UserOutPut.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.UserOutPut.Remarks">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CoreServices.Users.Dtos.UserOutPut.Company">
+            <summary>
+            公司
+            </summary>
+        </member>
+        <member name="M:CoreServices.Users.IMenuService.GetMenusAsync">
+            <summary>
+            获取菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreServices.Users.IUserService.LoginAsync(CoreServices.Users.Dtos.LoginInput)">
+            <summary>
+            登录
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreServices.Users.IUserService.TokenLoginAsync(System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreServices.Menus.Dtos.MenuOutPut">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Label">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Path">
+            <summary>
+             路径
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Index">
+            <summary>
+            顺序
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Tooptip">
+            <summary>
+            提示
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.Remarks">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.ParentMent">
+            <summary>
+            父节点
+            </summary>
+        </member>
+        <member name="P:CoreServices.Menus.Dtos.MenuOutPut.ChildMents">
+            <summary>
+            子节点
+            </summary>
+        </member>
+    </members>
+</doc>

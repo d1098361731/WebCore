@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="BaseEntity.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BaseEntityDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BaseEntityMaster.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

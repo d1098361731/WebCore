@@ -1,0 +1,5 @@
+执行时间：2019-10-31 00:13:24:094;执行方法：AdvertisementService.Query(id)
+执行时间：2019-10-31 00:13:32:518;执行方法：AdvertisementService.Query(id)
+执行时间：2019-10-31 00:13:38:130;执行方法：AdvertisementService.GetAll()
+执行时间：2019-10-31 00:17:17:332;执行方法：AdvertisementService.GetAll()
+执行时间：2019-10-31 00:17:24:178;执行方法：AdvertisementService.Query(id)

@@ -1,0 +1,7 @@
+执行时间：2019-09-10 08:04:37:081;执行方法：AdvertisementService.Add(model)
+执行时间：2019-09-10 08:06:08:477;执行方法：AdvertisementService.Query(id)
+执行时间：2019-09-10 08:06:39:300;执行方法：AdvertisementService.Add(model)
+执行时间：2019-09-10 08:07:40:767;执行方法：AdvertisementService.Add(model)
+执行时间：2019-09-10 08:09:38:785;执行方法：AdvertisementService.Add(model)
+执行时间：2019-09-10 08:11:26:393;执行方法：AdvertisementService.Add(model)
+执行时间：2019-09-10 08:12:19:397;执行方法：AdvertisementService.Add(model)

@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebCore</name>
+    </assembly>
+    <members>
+        <member name="T:WebCore.Auth.TokenAuth">
+            <summary>
+            Token验证授权中间件
+            </summary>
+        </member>
+        <member name="F:WebCore.Auth.TokenAuth._next">
+            <summary>
+            http委托
+            </summary>
+        </member>
+        <member name="M:WebCore.Auth.TokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Common.Cache.ICache)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="next"></param>
+            <param name="cache"></param>
+        </member>
+        <member name="M:WebCore.Auth.TokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            验证授权
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.MenuController.GetMenusAsync">
+            <summary>
+            根据条件获取到菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebCore.Controllers.UserController">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="M:WebCore.Controllers.UserController.LoginAsync(CoreServices.Users.Dtos.LoginInput)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="input">登录类型</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebCore.Controllers.ValuesController">
+            <summary>
+            测试控制器
+            </summary>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Get">
+            <summary>
+            Get获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get获取对象
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.PostAdvertisement(CoreServices.Advertisements.Dtos.AdvertisementInput)">
+            <summary>
+            Post   上传Advertisement
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.PostLove(Core.Model.Love)">
+            <summary>
+            Post   上传PostLove
+            </summary>
+            <param name="love"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Put  请求
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:WebCore.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Delete  请求
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:WebCore.Intrceptors.CoreCacheAOP">
+            <summary>
+            缓存拦截器
+            </summary>
+        </member>
+        <member name="T:WebCore.AOP.CoreLogAOP">
+            <summary>
+            自定义log拦截器
+            </summary>
+        </member>
+        <member name="M:WebCore.AOP.CoreLogAOP.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            实例化IInterceptor唯一方法 
+            </summary>
+            <param name="invocation">被拦截方法的所有信息</param>
+        </member>
+        <member name="M:WebCore.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            onfigureServices方法是用来把services(各种服务, 例如identity, ef, mvc等等包括第三方的, 或者自己写的)加入(register)到container(asp.net core的容器)中去, 并配置这些services
+             // 运行时调用此方法。使用此方法向容器中添加服务。
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            方法是asp.net core程序用来具体指定如何处理每个http请求的, 例如我们可以让这个程序知道我使用mvc来处理http请求
+            // 运行时调用此方法。使用此方法配置HTTP请求管道。
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:WebCore.Startup.GetSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            获取appsettings  配置文件信息
+            </summary>
+        </member>
+        <member name="M:WebCore.Startup.SetCors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            设置跨域请求
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebCore.Startup.SetAuthorazition(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            设置授权
+            </summary>
+        </member>
+        <member name="M:WebCore.Startup.SetSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            SetSwagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebCore.Startup.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            使用配置swaager
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:WebCore.Startup.SetAutoFac(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            设置依赖注入框架AutoFac
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

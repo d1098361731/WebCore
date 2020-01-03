@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\dff\\C#\\core\\WebCore\\WebServices\\CoreServices.csproj": {}
+  },
+  "projects": {
+    "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\dff\\C#\\core\\WebCore\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\dff\\C#\\core\\WebCore\\CoreModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.0.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\dff\\C#\\core\\WebCore\\CoreRepository\\CoreRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dff\\C#\\core\\WebCore\\CoreRepository\\CoreRepository.csproj",
+        "projectName": "CoreRepository",
+        "projectPath": "F:\\dff\\C#\\core\\WebCore\\CoreRepository\\CoreRepository.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\dff\\C#\\core\\WebCore\\CoreRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj"
+              },
+              "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj"
+              },
+              "F:\\dff\\C#\\core\\WebCore\\WebEf\\CoreEf.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\WebEf\\CoreEf.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\dff\\C#\\core\\WebCore\\WebEf\\CoreEf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dff\\C#\\core\\WebCore\\WebEf\\CoreEf.csproj",
+        "projectName": "CoreEf",
+        "projectPath": "F:\\dff\\C#\\core\\WebCore\\WebEf\\CoreEf.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\dff\\C#\\core\\WebCore\\WebEf\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\Common\\Common.csproj"
+              },
+              "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\dff\\C#\\core\\WebCore\\WebServices\\CoreServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dff\\C#\\core\\WebCore\\WebServices\\CoreServices.csproj",
+        "projectName": "CoreServices",
+        "projectPath": "F:\\dff\\C#\\core\\WebCore\\WebServices\\CoreServices.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\dff\\C#\\core\\WebCore\\WebServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\CoreModel\\Core.csproj"
+              },
+              "F:\\dff\\C#\\core\\WebCore\\CoreRepository\\CoreRepository.csproj": {
+                "projectPath": "F:\\dff\\C#\\core\\WebCore\\CoreRepository\\CoreRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
